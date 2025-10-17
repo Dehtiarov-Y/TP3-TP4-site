@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gnorman, le Gardien de MMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#histoire">Son Histoire</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h1>Gnorman, le Gardien de MMI</h1>
+            <img src="/TP3-4-practice/img/image.jpeg" alt="Photo d'un gnome avec le marteau de Thor" class="hero-image">
+        </section>
+
+        <section id="histoire">
+            <h2>L'histoire de Gnorman</h2>
+            <p>
+                Au cœur de l'IUT de Mulhouse, dans le local de l'Amicale BUT MMI, vit une petite créature bienveillante nommée Gnorman. Personne ne sait exactement d'où il vient, mais il est rapidement devenu le gardien non officiel du département. Avec son chapeau orange et sa barbe blanche, il veille sur les étudiants.
+            </p>
+            <p>
+                On raconte qu'il apporte chance et créativité à tous ceux qui préparent leurs projets près de lui. Durant les semaines d'examens, Gnorman est là pour apporter un peu de réconfort et de magie, rappelant aux étudiants que même les plus grands défis peuvent être surmontés avec un peu d'aide et de bonne humeur. Il est le symbole de l'esprit convivial et solidaire de MMI.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Laissez un message à Gnorman</h2>
+            <p>Il ne peut pas répondre, mais il appréciera le geste !</p>
+            
+            <form>
+                <div class="form-group">
+                    <label for="nom">Votre Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Votre Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Votre Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
